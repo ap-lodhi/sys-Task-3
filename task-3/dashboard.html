@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/foodShoop.png" alt=""
+        /></a>
+        <div>
+          <i class="fa-solid fa-user fs-3 mt-3">
+            <span class="fs-4 text-white">Hi.. <span id="username"></span> </span
+          ></i>
+        </div>
+        <button
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-bs-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link" href="dashboard.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">LogOut</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header part End -->
+
+    <section class="more-info-section hero-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div
+            class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-item-center"
+          >
+            <p class="paragraph active text-white fs-2">
+              <i><b>Are You Hungry</b></i>
+            </p>
+            <p class="paragraph text-white fs-3">
+              <i><b>Then Order Now!</b></i>
+            </p>
+
+            <h1 class="text-capitalize text-white">Food Made With Love</h1>
+            <p class="fs-5 text-white">
+              We believe that great food starts with great ingredients. That's
+              why we source only the freshest, locally-sourced produce and
+              premium ingredients for our dishes. Whether it's the crisp
+              vegetables in our salads, the succulent meats in our grills, or
+              the aromatic spices in our curries, you can taste the difference
+              in every bite.
+            </p>
+            <div class="text-center w-100 text-md-start">
+              <button
+                class="text-capitalize Btn text-white px-4 py-2"
+                data-bs-toggle="tooltip"
+                data-bs-title=" shop now"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-6 hero">
+            <div class="text-center">
+              <figure>
+                <img src="images/home-img.png" alt="hero" class="w-75 img-rt" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular">
+      <div class="m-auto w-75 mb-5">
+        <h1 class="heading">most <span>popular</span> foods</h1>
+      </div>
+      <div class="container box-container">
+        <div class="row g-5">
+          <div class="col-12 col-lg-6 col-md-12">
+            <div class="box">
+              <span class="price"> $5 - $20 </span>
+              <img src="images/p-1.jpg" alt="" />
+              <h3>tasty burger</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="Btn loader-container">Order Now</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-12">
+            <div class="box">
+              <span class="price"> $5 - $20 </span>
+              <img src="images/p-2.jpg" alt="" />
+              <h3>tasty cakes</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="Btn">Order Now</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-md-12">
+            <div class="box">
+              <span class="price"> $5 - $20 </span>
+              <img src="images/p-3.jpg" alt="" />
+              <h3>tasty sweets</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="Btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-12">
+            <div class="box">
+              <span class="price"> $5 - $20 </span>
+              <img src="images/p-4.jpg" alt="" />
+              <h3>tasty cupcakes</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="Btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-12">
+            <div class="box">
+              <span class="price"> $5 - $20 </span>
+              <img src="images/p-5.jpg" alt="" />
+              <h3>cold drinks</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="Btn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-12">
+            <div class="box">
+              <span class="price"> $5 - $20 </span>
+              <img src="images/p-6.jpg" alt="" />
+              <h3>tasty ice-creams</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="Btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="steps">
+
+      <div class="boxs">
+       <img src="images/step-1.jpg" alt="">
+       <h3>choose your favourite food</h3>
+      </div>
+      <div class="boxs">
+       <img src="images/step-2.jpg" alt="">
+       <h3>free and fast delivery</h3>
+      </div>
+      <div class="boxs">
+       <img src="images/step-3.jpg" alt="">
+       <h3>easy payment methods</h3>
+      </div>
+      <div class="boxs">
+       <img src="images/step-4.jpg" alt="">
+       <h3>and finally, <br> enjoy your food</h3>
+      </div>
+   </section>
+
+
+   <section class="gallery" id="gallery">
+
+    <h1 class="heading g-heading">our food <span>gallery</span></h1>
+
+    <div class="box-container container">
+      <div class="row g-5">
+
+        <div class="box box-ani">
+            <img src="images/g-1.jpg" alt="" class="ani">
+           
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-2.jpg" alt="" class="ani">
+            
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-3.jpg" alt="" class="ani">
+           
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-4.jpg" alt="" class="ani">
+           
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-5.jpg" alt="" class="ani">
+            
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-6.jpg" alt="" class="ani">
+            
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-7.jpg" alt="" class="ani">
+            
+        </div>
+        <div class="box box-ani">
+            <img src="images/g-8.jpg" alt="" class="ani">
+            
+        </div>
+       
+
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+
+  <div class="share">
+      <a href="loader.html" class="Btn">facbook</a>
+      <a href="#" class="Btn">twitter</a>
+      <a href="#" class="Btn">instagram</a>
+      <a href="#" class="Btn">pininterst</a>
+      <a href="#" class="Btn">linkedin</a>
+  </div>
+
+  <h1 class="credit">
+     all rights are reserved  | @2023 
+  </h1>
+</section>
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/dashboard.js">
+      
+    </script>
+  </body>
+</html>
